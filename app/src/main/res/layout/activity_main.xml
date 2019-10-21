@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        style="@style/TpOnAppTheme.TitleOnBoarding"
+        android:gravity="center"
+        android:text="@string/tpon_title_start"
+        android:layout_marginTop="100dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"/>
+
+
+    <TextView
+        android:id="@+id/serviceimg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="2,50 € al mese"
+        android:gravity="center"
+        style="@style/TpOnAppTheme.LighterTitle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintVertical_bias="0.071" app:layout_constraintHorizontal_bias="0.0"/>
+
+
+    <LinearLayout
+        android:id="@+id/promoSection"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/serviceimg"
+        android:layout_marginStart="@dimen/tpon_margin_promo_section"
+        android:layout_marginEnd="@dimen/tpon_margin_promo_section"
+        app:layout_constraintVertical_bias="0.06">
+
+
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_promo"/>
+        <TextView
+            android:id="@+id/promoDescr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TpOnAppTheme.DescPromo"
+            android:gravity="center"
+            android:text="SPAZIO PROMOZIONE"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/autostradaSection"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/promoSection"
+        android:layout_marginStart="@dimen/tpon_default_margin"
+        android:layout_marginEnd="@dimen/tpon_default_margin"
+        app:layout_constraintVertical_bias="0.10">
+
+
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/tpon_title_color"
+            app:srcCompat="@drawable/ic_check"/>
+        <TextView
+            android:id="@+id/autostradaDescr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TpOnAppTheme.Desc"
+            android:gravity="start"
+            android:paddingStart="19dp"
+            android:text="Autostrada, parcheggi, area c, traghetti"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/strisceBluSection"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/autostradaSection"
+        android:layout_marginStart="@dimen/tpon_default_margin"
+        android:layout_marginEnd="@dimen/tpon_default_margin"
+        app:layout_constraintVertical_bias="0.10">
+
+
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/tpon_title_color"
+            app:srcCompat="@drawable/ic_check"/>
+        <TextView
+            android:id="@+id/strisceBluDescr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TpOnAppTheme.Desc"
+            android:gravity="start"
+            android:paddingStart="19dp"
+            android:text="Strisce blu, carburante, taxi, bollo, lavaggio auto, skipass, monopattino, navi e traghetti"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/cashbackSection"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:gravity="start"
+        app:layout_constraintTop_toBottomOf="@+id/strisceBluSection"
+        android:layout_marginStart="@dimen/tpon_default_margin"
+        android:layout_marginEnd="@dimen/tpon_default_margin"
+        app:layout_constraintVertical_bias="0.10">
+
+
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/tpon_title_color"
+            app:srcCompat="@drawable/ic_check"/>
+        <TextView
+            android:id="@+id/cashbackDescr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TpOnAppTheme.Desc"
+            android:gravity="start"
+            android:paddingStart="19dp"
+            android:text="Cashback di T-Sconto"
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/startbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TpOnAppTheme.StartActionButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cashbackSection"
+        app:layout_constraintVertical_bias="0.371"
+        android:text="@string/tpon_start_action"
+        android:layout_marginStart="@dimen/tpon_default_margin"
+        android:layout_marginEnd="@dimen/tpon_default_margin"
+        />
+
+    <!--    <Button
+                android:id="@+id/tutorialbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TpOnAppTheme.TutorialButton"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/startbtn"
+                app:layout_constraintVertical_bias="0.094"
+                android:text="Scopri come funziona"
+                android:layout_marginStart="@dimen/tpon_default_margin"
+                android:layout_marginEnd="@dimen/tpon_default_margin"/>-->
+
+
+    <!-- <LinearLayout
+             android:id="@+id/contact"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:gravity="center"
+             app:layout_constraintBottom_toBottomOf="parent"
+             app:layout_constraintLeft_toLeftOf="parent"
+             app:layout_constraintRight_toRightOf="parent"
+             app:layout_constraintTop_toBottomOf="@+id/tutorialbtn"
+             app:layout_constraintVertical_bias="0.375">
+         <TextView
+                 android:id="@+id/contactdescr"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 style="@style/TpOnAppTheme.Desc"
+                 app:layout_constraintBottom_toBottomOf="parent"
+                 app:layout_constraintLeft_toLeftOf="parent"
+                 app:layout_constraintRight_toRightOf="parent"
+                 android:text="Hai domande? "
+                 app:layout_constraintTop_toBottomOf="@+id/tutorialbtn"/>
+
+
+         <TextView
+                 android:id="@+id/contactaction"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 style="@style/TpOnAppTheme.DescAccent"
+                 app:layout_constraintBottom_toBottomOf="parent"
+                 app:layout_constraintLeft_toRightOf="@+id/contactdescr"
+                 app:layout_constraintRight_toRightOf="parent"
+                 app:layout_constraintTop_toBottomOf="@+id/tutorialbtn"
+
+                 android:text="Contattaci"/>
+
+     </LinearLayout>
+ -->
+
+    <LinearLayout
+        android:id="@+id/termsprivacy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startbtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.8">
+        <TextView
+            android:id="@+id/termsprivacydescr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TpOnAppTheme.DescSmall"
+            android:gravity="center"
+            android:textColorLink="@color/tpon_action_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginStart="@dimen/tpon_default_margin"
+            android:layout_marginEnd="@dimen/tpon_default_margin"
+            android:text="@string/tpon_term_conditions"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

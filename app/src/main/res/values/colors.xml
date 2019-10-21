@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tpon_ColorPrimary">#008577</color>
+    <color name="tpon_ColorPrimaryDark">#00574B</color>
+    <color name="tpon_ColorAccent">#008EA0</color>
+
+    <color name="tpon_marine">#04386b</color>
+    <color name="tpon_descr">#212121</color>
+    <color name="tpon_descr_promo">#33cc66</color>
+    <color name="tpon_trasparent">#00000000</color>
+    <color name="tpon_edittext_label">#424242</color>
+
+    <color name="tpon_backgrd_switch_residence">#F5F5F5</color>
+    <color name="tpon_title_color">#00306E</color>
+    <color name="tpon_action_button">#008EA0</color>
+    <color name="tpon_action_button_disabled">#6e008EA0</color>
+    <color name="tpon_info_button">#c1c7d0</color>
+    <color name="tpon_info_button_text">#383b41</color>
+    <color name="tpon_device_color_blue">#13589d</color>
+    <color name="tpon_device_color_yellow">#fee01a</color>
+    <color name="tpon_device_color_green">#33cc66</color>
+    <color name="tpon_device_color_pink">#df287f</color>
+    <color name="tpon_round_border_no_focus">#9E9E9E</color>
+    <color name="tpon_round_border_focused">#139D9D</color>
+    <color name="tpon_color_green">#139d9d</color>
+    <color name="tpon_red">#b00020</color>
+    <color name="tpon_border_stroke_camera">#bdbdbd</color>
+
+    <!-- OtpView color -->
+    <color name="black">#000000</color>
+    <color name="red">#d32f2f</color>
+    <color name="grey">#a9a9a9</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+</resources>

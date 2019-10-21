@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">PocFirestoreKotlin</string>
+    <string name="tpx_default_message_error">Errore imprevisto - Ti preghiamo di riprovare</string>
+    <string name="tpon_send_sms_button">Inviami il codice personale via SMS</string>
+    <string name="hintphonenumber">331 112 32 11</string>
+    <string name="hintprefixnumber">+39</string>
+    <string name="descrinsertphone">Numero di telefono</string>
+    <string name="descrphonesection">Abbiamo bisogno del tuo numero di\ntelefono per identificarti.</string>
+    <string name="titlephonesection">Verifica la tua identità</string>
+    <string name="titleotpsection">Inserisci il tuo codice di sicurezza</string>
+    <string name="titleprofilesection">Il tuo profilo</string>
+    <string name="descrotpsection">Ti abbiamo inviato un codice di 6 cifre</string>
+    <string name="tpon_send_otp_button">Fatto</string>
+    <string name="tpon_send_profile_button">Continua</string>
+
+    <string name="driving_license">della tua patente di guida</string>
+    <string name="electronic_id_card">della tua carta d\'identità elettronica</string>
+    <string name="standard_id_card">della tua carta d\'identità</string>
+    <string name="passport">del tuo passaporto</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tpon_ok">Ok</string>
+    <string name="tpon_contact_us">Contattaci</string>
+    <string name="tpon_error_number_validation">Il numero di telefono inserito non sembra essere corretto. Ti preghiamo
+        di verificare.
+    </string>
+    <string name="tpon_dialog_otp_sms_resend_message">Vuoi reinviare il codice al %s</string>
+    <string name="tpon_resend">Reinvia</string>
+    <string name="tpon_cancel">Annulla</string>
+    <string name="tpon_alert">Avviso</string>
+    <string name="tpon_resend_sms_ok">Ti abbiamo inviato un nuovo codice</string>
+    <string name="tpon_api_error_otp_sms">Il condice inserito non è corretto</string>
+    <string name="tpon_error_checkphone_is_not_available_message">Il numero di telefono risulta associato ad un altro
+        contratto
+    </string>
+    <string name="tpon_error_checkphone_is_tpayx_message">Il numero di telefono risulta associato ad un altro contratto
+        Telepass Pay X.
+    </string>
+    <string name="tpon_resend_otp">Non hai ricevuto il codice?</string>
+    <string name="tpon_error_wrong_email_message">E\' necessario inserire un indirizzo e-mail valido. Ti preghiamo di
+        verificare.
+    </string>
+    <string name="tpon_error_wrong_fiscalcode">Il Codice Fiscale inserito non sembra essere corretto. Ti preghiamo di
+        verificare.
+    </string>
+    <string name="tpon_select_option">Seleziona un\'opzione</string>
+    <string name="tpon_confirm">Conferma</string>
+    <string name="tpon_error_fiscalcode_operations_progress">Prima di proseguire con la registrazione a Telepass Pay X
+        devi completare o annullare eventuali migrazioni di contratto in corso.
+    </string>
+    <string name="tpon_error_fiscalcode_contract_already_open">Hai già un contratto Telepass Pay X attivo. Accedi con il
+        numero di telefono associato al contratto esistente
+    </string>
+    <string name="tpon_error_fiscalcode_blacklist">Ti informiamo che non sussistono i requisiti per l\'adesione al
+        servizio
+    </string>
+    <string name="tpon_error_fiscalcode_hb_empty">Siamo spiacenti ma in questo momento i clienti HelloBank senza un
+        Conto Corrente HelloBank ATTIVO non possono aderire a Telepass Pay X.\nChiama subito il nostro call center
+        (800.045.045) per scoprire la promozione che Telepass e Telepass Pay hanno riservato per te. Qualora invece tu
+        avessi già un conto corrente HelloBank attivo (per esempio sottoscritto da pochi giorni) riprova tra qualche
+        giorno o verifica con la tua agenzia BNL
+    </string>
+    <string name="tpon_error_fiscalcode_bnl_not_kyc">Prima di proseguire devi recarti presso un\'agenzia BNL per
+        aggiornare la tua posizione anagrafica
+    </string>
+    <string name="tpon_error_fiscalcode_tlp_not_signed">Prima di proseguire con la registrazione a Telepass Pay X devi
+        registrarti al sito telepass.it
+    </string>
+    <string name="tpon_title_start">Diventa cliente</string>
+    <string name="tpon_descr_start">Telepass ti consente di pagare i tuoi spostamenti e il tuo shopping,
+        gestendo tutto in un\'unica app.
+    </string>
+
+    <string name="tpon_title_start_doc_section">I tuoi documenti</string>
+    <string name="tpon_descr_start_doc_section">Ci siamo quasi! Abbiamo bisogno solo di\nconfermare i tuoi dettagli.
+    </string>
+
+    <string name="tpon_start_action">Inizia</string>
+    <string name="tpon_error_fiscalcode_title">Errore</string>
+    <string name="tpon_error_fiscalcode_message_retry">Si è verificato un errore, si prega di riprovare</string>
+    <string name="tpon_retry">Riprova</string>
+    <string name="tpon_error_fiscalcode_operations_others">Hai un\'altra adesione in corso, per continuare devi
+        annullarla nella tua area riservata telepass.com
+    </string>
+    <string name="tpon_error_checkphone_is_tpay_message">Il numero di telefono risulta associato ad un altro contratto
+        Telepass Pay.
+    </string>
+    <string name="tpon_dialog_otp_mail_resend_message">Vuoi rinviare il codice alla tua casella email %s ?</string>
+    <string name="tpon_dialog_otp_mail_resend_success_message">Ti abbiamo inviato un nuovo codice</string>
+    <string name="tpon_term_conditions">Continuando accetti i Termini e condizioni e Privacy Policy di Telepass Spa
+    </string>
+    <string name="tpon_dialog_deleteonboarding_title">Cancellazione</string>
+    <string name="tpon_dialog_deleteonboarding_message">Vuoi uscire dal processo di registrazione?</string>
+    <string name="titleshippingaddress">Il tuo indirizzo di spedizione</string>
+    <string name="title_residence_address">Il tuo indirizzo di residenza</string>
+    <string name="tpon_address">Indirizzo</string>
+    <string name="tpon_use_geocode">Usa posizione attuale</string>
+    <string name="hintaddress">Via/Piazza e numero civico</string>
+    <string name="hintaddress02">Scala, piano, interno ecc</string>
+    <string name="tpon_not_mandatory">Opzionale</string>
+    <string name="tpon_city">Città</string>
+    <string name="cityHint">Roma</string>
+    <string name="tpon_province">Provincia</string>
+    <string name="provinceHint">RM</string>
+    <string name="tpon_fiscal_code">Codice postale</string>
+    <string name="fiscalCodeHint">00100</string>
+    <string name="tpon_address_residence_info">Continuando dichiari di avere la sola residenza fiscale italiana, di non
+        essere cittadino straniero
+    </string>
+    <string name="tpon_location_request_rationale">Consenti a “Telepasspay+” di accedere alla tua posizione</string>
+    <string name="tpon_not_now">Non adesso</string>
+    <string name="tpon_authorize">Autorizza</string>
+    <string name="titleiban">Le tue coordinate bancarie</string>
+    <string name="tpon_iban">Iban</string>
+    <string name="tpon_iban_info">Inserendo l\'IBAN del tuo conto e continuando conferisci a Telepass il mandato di
+        addebito diretto SDD dei servizi a te riservati.
+    </string>
+    <string name="hintiban">XX00 0000 0000 0000 0000 00</string>
+    <string name="tpon_pep_title">Per chi è questo account?</string>
+    <string name="tpon_private_person">Persona privata</string>
+    <string name="tpon_pep_desc">Sono una persona fisica, cioè un comune cittadino</string>
+    <string name="tpon_public_person">Persona pubblica</string>
+    <string name="tpon_public_person_desc">Sono una persona politica (PEP) che\noccupa o ha ricoperto cariche pubbliche
+    </string>
+    <string name="tpon_plate_title">Il tuo veicolo</string>
+    <string name="platelabel">Targa veicolo</string>
+    <string name="tpon_plate_desc">Inserisci la targa del tuo veicolo.</string>
+    <string name="tpon_skip_plate_label">Preferisco inserirla in seguito</string>
+    <string name="tpon_continue">Continua</string>
+    <string name="hintplate">AA 123 BB</string>
+    <string name="tpon_plate_nations_title">Paese immatricolazione</string>
+    <string name="hintsearchplatenation">Cerca paese</string>
+    <string name="titleresidenceaddress">Il tuo indirizzo di residenza</string>
+    <string name="tpon_title_contract_signed">I tuoi documenti sono stati caricati</string>
+    <string name="tpon_descr_contract_signed">Mettiti comodo, il nostro team è al lavoro per verificare i tuoi dati. Se
+        i documenti sono corretti, il tuo profilo sarà attivo in circa 3 giorni lavorativi.
+    </string>
+    <string name="tpon_title_waiting_activation">Lo stato del tuo account</string>
+    <string name="tpon_check_shipping">Verifica spedizione</string>
+    <string name="tpon_contract_state_details">Dettagli stato contratto</string>
+    <string name="tpon_activate_with_photo">Attiva su app tramite foto</string>
+    <string name="tpon_title_chooseprofession">Scegli la professione</string>
+    <string name="tpon_name_hint">Mario</string>
+    <string name="tpon_surname_hint">Rossi</string>
+    <string name="tpon_email_hint">mario.rossi@mail.com</string>
+    <string name="tpon_fiscalcode_hint">RSSMRA80A01H501U</string>
+    <string name="tpon_select">Seleziona</string>
+    <string name="tpon_loading_document_front_desc">Carica il fronte %s</string>
+    <string name="tpon_loading_document_rear_desc">Carica il retro %s</string>
+    <string name="tpon_document_type_desc_ci">della tua Carta d\'identità</string>
+    <string name="tpon_document_type_desc_ps">del tuo Passaporto</string>
+    <string name="tpon_document_type_desc_pat">della tua Patente</string>
+    <string name="tpon_error_message_iban_invalid">L\'IBAN inserito non è valido</string>
+    <string name="tpon_title_error">Errore</string>
+    <string name="tpon_privacy_title">I tuoi contratti</string>
+    <string name="tpon_descr_privacy">È fatta! Mancano solo le tue firme per diventare cliente.</string>
+    <string name="tpon_error_pep_message">Per proseguire con l’adesione in app devi recarti presso una Agenzia BNL per
+        completare il processo di riconoscimento. Chiama il numero 060.060 all’opzione 6.
+    </string>
+    <string name="tpon_button_restart">Ricomincia</string>
+    <string name="tpon_button_confirm_privacy">Accetta tutti e continua</string>
+    <string name="tpon_text_privacy_mandatory1">Il Richiedente dichiara che tutte le informazioni riportate nel presente Modulo di Adesione sono complete e veritiere di aver preso visione attentamente, in tempo utile prima della sottoscrizione, del Foglio Informativo , delle Norme e Condizioni e del frontespizio Documento di Sintesi contenente le condizioni economiche applicate; di aver preso visione e di aver già accettato le condizioni di utilizzo e funzionamento della Firma Elettronica Qualificata previste dall’Ente Certificatore di accettare integralmente le Norme e Condizioni e il frontespizio Documento di Sintesi</string>
+    <string name="tpon_text_privacy_mandatory2">Il Richiedente dichiara di aver ricevuto un esemplare completo del Contratto comprensivo del Foglio Informativo, delle Norme e Condizioni dei servizi, dell’Informativa sul trattamento dei Dati Personali e del frontespizio Documento di Sintesi contenente le condizioni economiche applicate e accettando qui sotto dichiara di accettare tali Norme e Condizioni e il trattamento dei propri dati personali in forza dell’Informativa che ha ricevuto, nonché accetta di ricevere una copia del contratto così sottoscritto in una fase successiva, con la conferma di accettazione della proposta di adesione da parte di Telepass Pay.</string>
+    <string name="tpon_text_privacy_mandatory3">Con la sottoscrizione del mandato SEPA nonchè con l’adesione al presente Contratto, il Cliente autorizza irrevocabilmente Telepass a richiedere alla banca del Cliente l’addebito diretto presso il proprio conto corrente, come di seguito individuato, per il pagamento dei corrispettivi e degli altri importi previsti dal presente Contratto e, conseguentemente, il Cliente autorizza la propria banca a procedere a tale addebito conformemente alle disposizioni impartite da Telepass S.p.A. Il Cliente ha diritto di ottenere il rimborso dalla propria Banca secondo gli accordi ed alle condizioni che regolano il rapporto con quest’ultima. Se del caso, il rimborso deve essere richiesto nel termine di 8 settimane a decorrere dalla data di addebito in conto. I dati del creditore e del debitore sono quelli sottoindicati. Art. 4.6 (richiesta di attivazione di Singoli Servizi che comportino costi a carico del Cliente);  Art. 7.2 (comunicazione delle Operazioni di Pagamento che il Cliente ritenga non siano state dal medesimo autorizzate); Art. 7.4 (sospensione dell’Operazione di Rimborso) e Art. 7.6 (comunicazione delle Operazioni di Pagamento che il Cliente ritenga siano state effettuate in modo inesatto); Artt. 8.1 e 8.2 (regime di responsabilità applicabile al Cliente per l’utilizzo non autorizzato delle Soluzioni di Pagamento TPAY); Art. 9 (disciplina sul disconoscimento delle Operazioni effettuate tramite Apparato Telepass); Artt. 11.1 e 11.3 (addebito inframensile e sospensione del servizio per raggiungimento tetto massimo di spesa) e Art. 11.4 (Addebito all’attivazione del Servizio); Art. 12 (aggiornamento dell’App e/o dell’Area Riservata TPAY) e Art. 14 (disciplina sulla sospensione delle Soluzioni di Pagamento TPAY e/o dei Singoli Servizi); Art. 16.3 (diritto di Telepass pay S.p.A. di recedere dal Contratto con preavviso di 2 mesi); Art. 16.4 (diritto di Telepass Pay S.p.A. di recedere dal Contratto con effetto immediato in presenza di un giustificato motivo); Art. 16.6 (che consente a Telepass Pay S.p.A. di considerare risolto il Contratto in determinati casi, tra cui il mancato pagamento degli importi dovuti dal Cliente); Art. 17 (esclusione della responsabilità di Telepass Pay S.p.A. nei rapporti con i Beneficiari) e Art. 18 (modifiche unilaterali del Contratto); Art. 23 (esclusione della responsabilità di Telepass Pay S.p.A. in relazione ai link relativi a contenuti di terzi); Art. 24 (esclusione della responsabilità di Telepass Pay S.p.A. in casi di forza maggiore); Art. 26.3 (cessione del Contratto e/o dei Crediti).</string>
+    <string name="tpon_text_privacy_mandatory4">Con la sottoscrizione del mandato SEPA e la sottoscrizione del Contratto, il Cliente autorizza irrevocabilmente Telepass Pay S.p.A. a richiedere alla banca l’addebito diretto presso il proprio conto corrente indicato di seguito per il pagamento dei corrispettivi dei servizi oggetto del presente Contratto e, conseguentemente autorizza la propria banca a procedere a tale addebito, conformemente alle disposizioni impartite da Telepass Pay S.p.A. Il Cliente inoltre autorizza irrevocabilmente Telepass Pay S.p.A. a richiedere alla propria banca l’addebito diretto presso il medesimo conto corrente per il pagamento dei corrispettivi dei servizi forniti al Cliente medesimo da Telepass S.p.A. ai sensi del contratto sottoscritto con quest’ultima, in sostituzione della stessa Telepass S.p.A.. In caso di addebiti ritenuti non dovuti od erronei dal Cliente, quest’ultimo ha diritto di ottenere il rimborso dalla propria banca secondo gli accordi ed alle condizioni che regolano il rapporto con quest’ultima. Se del caso, il rimborso deve essere richiesto nel termine di 8 settimane a decorrere dalla data di addebito diretto del conto. I dati del creditore e del Cliente sono quelli contenuti nel Contratto.</string>
+    <string name="tpon_text_privacy_optional_title">Il Richiedente dichiara di aver letto attentamente l’Informativa in materia di protezione dei dati personali ai sensi del GDPR.</string>
+    <string name="tpon_text_privacy_optional1">Inoltre, con particolare riferimento al trattamento dei propri Dati effettuato da Telepass Pay per finalità commerciali (paragrafo 4.5 dell\'informativa)</string>
+    <string name="tpon_text_privacy_optional2">con particolare riferimento alla comunicazione e/o cessione dei propri Dati a società terze che li tratteranno per finalità commerciali in qualità di autonomi titolari (paragrafo 4.6 dell\'informativa)</string>
+    <string name="tpon_text_privacy_optional3">con particolare riferimento a¶l trattamento dei propri Dati effettuato da Telepass Pay per finalità di profilazione (paragrafo 4.7 dell\'informativa)</string>
+    <string name="tpon_text_device_info">Offerta Telepass a 2,50€ al mese \nServizio Europeo a 2,40€ al mese \nDispositivo Europeo a 6€ una tantum</string>
+</resources>

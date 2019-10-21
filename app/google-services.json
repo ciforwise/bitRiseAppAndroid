@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "847319286611",
+    "firebase_url": "https://pocfirestore-734f5.firebaseio.com",
+    "project_id": "pocfirestore-734f5",
+    "storage_bucket": "pocfirestore-734f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847319286611:android:5f38f1047b639ea5d797a6",
+        "android_client_info": {
+          "package_name": "com.wisemotions.pocfirestorekotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847319286611-gph8fa4u5k8j7u1kb12nf25eb6iep207.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE_uejH5bnmbN-vrsXWcseurLyvZNh40I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847319286611-gph8fa4u5k8j7u1kb12nf25eb6iep207.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

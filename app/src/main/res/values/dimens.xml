@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="choose_option_rv_height">300dp</dimen>
+
+    <dimen name="tpon_bottom_sheet_height">225dp</dimen>
+    <dimen name="tpon_bottom_sheet_main_peek_high">270dp</dimen>
+    <dimen name="tpon_bottom_sheet_main_peek_low">70dp</dimen>
+    <dimen name="tpon_bottom_sheet_big_height">270dp</dimen>
+    <dimen name="tpon_bottom_sheet_double_row">150dp</dimen>
+    <dimen name="tpon_bottom_sheet_row">75dp</dimen>
+    <dimen name="tpon_bottom_sheet_small_row">50dp</dimen>
+    <dimen name="tpon_bottom_sheet_big_row">120dp</dimen>
+    <dimen name="tpon_fragment_marginTop">50dp</dimen>
+    <dimen name="login_button_width">78dp</dimen>
+    <dimen name="login_button_height">70dp</dimen>
+    <dimen name="button_height">45dp</dimen>
+    <dimen name="tpon_default_margin">16dp</dimen>
+    <dimen name="tpon_digit_margin">5dp</dimen>
+    <dimen name="tpon_digit_number">38sp</dimen>
+    <dimen name="tpon_title">24sp</dimen>
+    <dimen name="tpon_margin_top_title">56dp</dimen>
+    <dimen name="tpon_margin_promo_section">74dp</dimen>
+    <dimen name="tpon_margin_edit_text_profile">30dp</dimen>
+
+</resources>
