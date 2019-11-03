@@ -29,11 +29,11 @@ jobs:
           command: ./gradlew build
       - store_artifacts:
           name: Store apk and other outputs
-          path: app/build/outputs
-          destination: outputs
+          path: app/build/outputs/apk/debug/app-debug.apk
+          #destination: outputs
       - run:
           name: Upload to Slack
           command: |
             export GIT_COMMIT_DESC=$(git log --format=oneline -n 1 | sed -E 's/^[^ ]+ (.*)$/\1/g')
             #curl -F file=@LargeProject.ipa -F channels=$SLACK_CHANNEL -F token=$SLACK_API_TOKEN -F title="${CIRCLE_PROJECT_REPONAME} | branch -> ${CIRCLE_BRANCH} | commit -> ${GIT_COMMIT_DESC}"  https://slack.com/api/files.upload
-            curl -F file=@outputs/apk/debug/app-debug.apk -F channels=$SLACK_CHANNEL -F token=$SLACK_API_TOKEN -F title="Released new build of ${CIRCLE_PROJECT_REPONAME} releated to commit -> ${GIT_COMMIT_DESC}"  https://slack.com/api/files.upload
+            curl -F file=@app-debug.apk -F channels=$SLACK_CHANNEL -F token=$SLACK_API_TOKEN -F title="Released new build of ${CIRCLE_PROJECT_REPONAME} releated to commit -> ${GIT_COMMIT_DESC}"  https://slack.com/api/files.upload
