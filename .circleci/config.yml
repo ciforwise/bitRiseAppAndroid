@@ -30,7 +30,7 @@ jobs:
       - store_artifacts:
           name: Store apk and other outputs
           path: app/build/outputs/apk/debug/app-debug.apk
-          #destination: outputs
+          destination: app-debug.apk
       - run:
           name: Upload to Slack
           command: |
