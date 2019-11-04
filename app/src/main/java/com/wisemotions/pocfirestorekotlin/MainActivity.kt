@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         val pippo:Float
 
         prova = "sto"
-        
+
+        pippo = 1.2f
     }
 }
