@@ -15,5 +15,8 @@ class MainActivity : AppCompatActivity() {
         val db = FirebaseFirestore.getInstance()
 
         val pippo:Float
+
+        prova = "sto"
+        
     }
 }
