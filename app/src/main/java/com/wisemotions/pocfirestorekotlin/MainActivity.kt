@@ -18,6 +18,6 @@ class MainActivity : AppCompatActivity() {
 
         prova = "sto"
 
-        pippo = 1.3f
+        pippo = 1.4f
     }
 }
