@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         val db = FirebaseFirestore.getInstance()
 
-        val pippo:Float
+        val pippo:String
 
 
         startbtn.setOnClickListener {
