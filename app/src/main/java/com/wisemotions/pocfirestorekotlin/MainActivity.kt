@@ -20,7 +20,8 @@ class MainActivity : AppCompatActivity() {
 
 
         startbtn.setOnClickListener {
-            startActivity(Intent(this, SecondActivity::class.java))
+            startActivity(Intent(this, SecondActivity::class.java).putExtra("value", "testok"))
         }
+
     }
 }
