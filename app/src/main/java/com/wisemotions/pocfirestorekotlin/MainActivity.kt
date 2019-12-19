@@ -16,11 +16,12 @@ class MainActivity : AppCompatActivity() {
 
         val db = FirebaseFirestore.getInstance()
 
-        val pippo:Float
+        val pippo:String
 
 
         startbtn.setOnClickListener {
-            startActivity(Intent(this, SecondActivity::class.java))
+            startActivity(Intent(this, SecondActivity::class.java).putExtra("value", "testok"))
         }
+
     }
 }
