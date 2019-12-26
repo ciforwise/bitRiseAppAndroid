@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val prova2: String
+        val prova3: String
 
         val db = FirebaseFirestore.getInstance()
 
