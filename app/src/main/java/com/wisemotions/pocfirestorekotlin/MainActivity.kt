@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         val db = FirebaseFirestore.getInstance()
 
-        val pippoo: String
+        val pippooo: String
 
 
         startbtn.setOnClickListener {
