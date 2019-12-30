@@ -7,4 +7,5 @@ evaluate(new File(
 rootProject.name='PocFirestoreKotlin'
 
 include ':flutter_module'
+
 project(':flutter_module').projectDir = new File('flutter_module')
