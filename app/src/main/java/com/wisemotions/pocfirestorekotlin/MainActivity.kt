@@ -17,11 +17,11 @@ class MainActivity : AppCompatActivity() {
 
         val db = FirebaseFirestore.getInstance()
 
-        val pippo: String
+        val pippoo: String
 
 
         startbtn.setOnClickListener {
-            //startActivity(Intent(this, SecondActivity::class.java).putExtra("value", "testok"))
+            
             startActivity(FlutterActivity.withCachedEngine("my_engine_id")
                 .build(this))
         }
