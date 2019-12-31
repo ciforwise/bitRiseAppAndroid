@@ -7,8 +7,13 @@ if (localPropertiesFile.exists()) {
         localProperties.load(reader)
     }
 }
+def flutterRoot = "/usr/local/flutter/"
+/*if (isCI == "true"){
+    flutterRoot = "/usr/local/flutter/"
+}else{
+    flutterRoot = localProperties.getProperty('flutter.sdk')
+}*/
 
-def flutterRoot = localProperties.getProperty('flutter.sdk')
 if (flutterRoot == null) {
     throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
 }
