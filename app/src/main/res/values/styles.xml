@@ -8,7 +8,6 @@
         <item name="colorAccent">@color/tpon_ColorAccent</item>
         <item name="colorControlActivated">@color/tpon_ColorAccent</item>
         <item name="colorControlHighlight">@color/tpon_ColorAccent</item>
-        <item name="android:windowLightStatusBar">true</item>
         <item name="android:navigationBarColor">@android:color/black</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
